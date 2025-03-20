@@ -4,46 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <img
-        src="img/logo_landing.svg"
-        alt="logo_landing"
-        style="background-color: black"
-      />
-      <a href="">OVERVIEW</a>
-      <a href="">FEATURES</a>
-      <a href="">CONTACT</a>
-    </header>
-    <section>
-      <h1>Coworking</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, labore.
-      </p>
-      <button type="submit">SIGN UP</button>
-      <!-- section -->
-    </section>
-    <section>
-      <h3>Lorem, ipsum dolor.</h3>
+    <div class="top">
+      <header>
+        <div class="navbar">
+          <img
+            src="img/logo_landing.svg"
+            alt="logo_landing"
+            style="background-color: black"
+          />
+          <a class="navbar__link" href="">OVERVIEW</a>
+          <a class="navbar__link" href="">FEATURES</a>
+          <a class="navbar__link" href="">CONTACT</a>
+        </div>
+      </header>
+      <section>
+        <h1 class="top__title">Coworking</h1>
+        <p class="top__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, labore.
+        </p>
+        <button class="top__button" type="submit">SIGN UP</button>
+        <!-- section -->
+      </section>
+    </div>
+    <section class="video-section">
+      <h3 class="section__heading">Lorem, ipsum dolor.</h3>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ea.
         Similique iste molestias nobis, veniam repudiandae odit? Saepe, eos
         enim.
       </p>
-      <a href="">Learn more</a>
+      <a href="" class="video-section__link">Learn more</a>
     </section>
     <!-- features -->
-    <section>
-      <h2>Features</h2>
+    <section class="features">
+      <h2 class="section__heading">Features</h2>
       <img src="img/features1.jpg" alt="features" />
       <h4>Supports All Currencies and Cards</h4>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
     </section>
     <!-- stay focused on saving money -->
-    <section>
-      <h2>Stay focused on saving money</h2>
-      <p>
+    <section class="app-download">
+      <h2 class="section__heading">Stay focused on saving money</h2>
+      <p class="app-download__text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo
         libero deserunt? Earum ducimus est cupiditate voluptatum provident
         voluptas cumque!
@@ -51,8 +56,8 @@
       <img src="img/stay.jpg" alt="stay focused on saving money" />
     </section>
     <!-- contacts -->
-    <section>
-      <h2>Contacts</h2>
+    <section class="contact">
+      <h2 class="section__heading">Contacts</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quidem.
       </p>
@@ -67,7 +72,7 @@
       </select>
       <button type="submit">SUBMIT NOW</button>
     </form>
-    <footer>
+    <footer class="footer">
       <p>Copyright 2022 CoWo</p>
     </footer>
   </body>

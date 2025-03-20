@@ -1,0 +1,62 @@
+/* 
+
+
+
+ 
+В данном задании больше стилизовать другие элементы не нужно, так как данная работа является достаточно однотонной и лучше сразу привыкать копировать стили из макета. Как работать с макетом, вы узнаете на 5-м занятии.
+Проверьте работу файлов HTML в браузере Google Chrome: зайдите в папку на вашем компьютере и нажмите два раза на HTML-файл, чтобы просмотреть его в браузере.
+
+*/
+
+/* Ссылкам OVERVIEW FEATURES CONTACT: */
+.navbar__link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* Заголовку h1 с текстом Coworking (из ДЗ к уроку 1): */
+.top__title {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+}
+
+/* Параграфу p с произвольным текстом из 10 элементов: */
+.top__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+/* Кнопке Sign Up: */
+.top__button {
+  border-radius: 6px;
+  width: 160px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ed4c5c;
+}
+
+/* Всем заголовкам h2, h3: */
+.section__heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+/* Параграфу p с произвольным текстом из 20 элементов (lorem20): */
+.app-download__text {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+/* Ссылкe Learn More: */
+.video-section__link {
+  font-size: 14px;
+  line-height: 140%;
+  color: #ed4c5c;
+}
