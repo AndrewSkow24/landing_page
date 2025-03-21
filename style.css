@@ -1,12 +1,17 @@
-/* 
+/* Первой строкой в файле style.css необходимо добавить обнуление стилей:
+ margin: 0;
+ padding: 0; */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-
-
- 
-В данном задании больше стилизовать другие элементы не нужно, так как данная работа является достаточно однотонной и лучше сразу привыкать копировать стили из макета. Как работать с макетом, вы узнаете на 5-м занятии.
-Проверьте работу файлов HTML в браузере Google Chrome: зайдите в папку на вашем компьютере и нажмите два раза на HTML-файл, чтобы просмотреть его в браузере.
-
-*/
+/* Для тега 
+<header></header>
+ задать высоту 100px. */
+.header {
+  height: 100px;
+}
 
 /* Ссылкам OVERVIEW FEATURES CONTACT: */
 .navbar__link {
@@ -16,17 +21,26 @@
 }
 
 /* Заголовку h1 с текстом Coworking (из ДЗ к уроку 1): */
+/* Заголовок 
+<h1>
+ с текстом Coworking:
+ Отступ снизу 39px. */
 .top__title {
   font-weight: bold;
   font-size: 72px;
   line-height: 86px;
+  padding-bottom: 39px;
 }
 
 /* Параграфу p с произвольным текстом из 10 элементов: */
+/* <p></p>
+ под заголовком:
+ Отступ снизу 39px. */
 .top__text {
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
+  padding-bottom: 39px;
 }
 
 /* Кнопке Sign Up: */
@@ -41,6 +55,12 @@
 }
 
 /* Всем заголовкам h2, h3: */
+/* <h3></h3>
+ с произвольным текстом из 3 элементов (lorem3):
+ Отступ снизу 24px. */
+.three_words {
+  margin-bottom: 24px;
+}
 .section__heading {
   font-weight: 600;
   font-size: 36px;
@@ -49,9 +69,22 @@
 }
 
 /* Параграфу p с произвольным текстом из 20 элементов (lorem20): */
+/* Параграф 
+<p></p>
+ с произвольным текстом из 20 элементов (lorem20):
+ Отступ снизу 14px. */
 .app-download__text {
   font-size: 14px;
   line-height: 140%;
+  padding-bottom: 14px;
+}
+
+/* Заголовок 
+<h2></h2>
+ с текстом Features:
+ Отступ снизу 63px. */
+.features {
+  padding-bottom: 63px;
 }
 
 /* Ссылкe Learn More: */
@@ -59,4 +92,46 @@
   font-size: 14px;
   line-height: 140%;
   color: #ed4c5c;
+}
+
+/* 
+Заголовок 
+<h4></h4>
+ с текстом Supports All Currencies and Cards:
+ Отступ сверху 33px.
+ Отступ снизу 20px. */
+.support {
+  padding-top: 33px;
+  padding-bottom: 20px;
+}
+
+/* <p></p>
+ с произвольным текстом из 7 элементов (lorem7):
+ Отступ снизу 5px. */
+.p7words {
+  padding-bottom: 5px;
+}
+
+/* Заголовок 
+<h2></h2>
+ с текстом Stay focused on saving money:
+ Отступ снизу 45px */
+.stay_focused {
+  padding-bottom: 45px;
+}
+
+/* Заголовок 
+<h2></h2>
+ с текстом Contacts:
+ Отступ снизу 53px.
+Тегу  */
+.contacts {
+  padding-bottom: 53px;
+}
+/* 
+<footer>
+ задать высоту 110px. */
+
+.footer {
+  height: 110px;
 }
