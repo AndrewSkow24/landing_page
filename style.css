@@ -136,84 +136,50 @@ a {
   text-transform: uppercase;
 }
 
-/* Всем заголовкам h2, h3: */
-/* <h3></h3>
- с произвольным текстом из 3 элементов (lorem3):
- Отступ снизу 24px. */
-.three_words {
+.video-section {
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 125px;
+  /* flex-wrap: wrap; */
+}
+
+.left_text {
+  height: 250px;
+}
+
+.section__heading_video {
+  color: rgb(0, 0, 0);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0%;
+  text-align: left;
   margin-bottom: 24px;
 }
-.section__heading {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
-  color: #000000;
-}
 
-/* Параграфу p с произвольным текстом из 20 элементов (lorem20): */
-/* Параграф 
-<p></p>
- с произвольным текстом из 20 элементов (lorem20):
- Отступ снизу 14px. */
-.app-download__text {
+.video_text {
+  color: rgb(0, 0, 0);
   font-size: 14px;
+  font-weight: 400;
   line-height: 140%;
-  padding-bottom: 14px;
+  letter-spacing: 0%;
+  text-align: justify;
+  margin-bottom: 14px;
 }
 
-/* Заголовок 
-<h2></h2>
- с текстом Features:
- Отступ снизу 63px. */
-.features {
-  padding-bottom: 63px;
-}
-
-/* Ссылкe Learn More: */
 .video-section__link {
+  color: rgb(237, 76, 92);
   font-size: 14px;
+  font-weight: 400;
   line-height: 140%;
-  color: #ed4c5c;
+  letter-spacing: 0%;
+  text-align: justify;
 }
 
-/* 
-Заголовок 
-<h4></h4>
- с текстом Supports All Currencies and Cards:
- Отступ сверху 33px.
- Отступ снизу 20px. */
-.support {
-  padding-top: 33px;
-  padding-bottom: 20px;
-}
-
-/* <p></p>
- с произвольным текстом из 7 элементов (lorem7):
- Отступ снизу 5px. */
-.p7words {
-  padding-bottom: 5px;
-}
-
-/* Заголовок 
-<h2></h2>
- с текстом Stay focused on saving money:
- Отступ снизу 45px */
-.stay_focused {
-  padding-bottom: 45px;
-}
-
-/* Заголовок 
-<h2></h2>
- с текстом Contacts:
- Отступ снизу 53px.
-Тегу  */
-.contacts {
-  padding-bottom: 53px;
-}
-/* 
-<footer>
- задать высоту 110px. */
-
-.footer {
-  height: 110px;
+.right_img {
+  width: 445px;
 }
